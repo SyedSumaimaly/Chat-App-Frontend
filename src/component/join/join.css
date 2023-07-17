@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&family=Roboto&display=swap');
+
+.JoinPage {
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.JoinCointainer {
+    border: 2px solid white;
+    width: 50%;
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.JoinCointainer>h1 {
+    color: white;
+    font-size: 2vmax;
+    width: 25vmax;
+    text-align: center;
+    padding: 1vmax;
+    font-family: 'Roboto';
+    box-sizing: border-box;
+}
+
+#joinInput{
+    width: 25vmax;
+    padding: 1vmax;
+    border: none;
+    outline: none;
+    font-size: 1.2vmax;
+    margin: 2vmax;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.joinbtn{
+    width: 25vmax;
+    border: none;
+    outline: none;
+    font-family: 'Roboto';
+    /* background-color: rgb(234, 255, 0); */
+    cursor: pointer;
+    transition: all 0.3s;
+}

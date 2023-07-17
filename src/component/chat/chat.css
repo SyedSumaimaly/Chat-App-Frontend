@@ -1,0 +1,74 @@
+.ChatPage {
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chatContainer {
+    background-color: white;
+    height: 60%;
+    border-radius: 10%;
+    width: 50%;
+}
+
+.chatHeader {
+    background-color: rgb(70,94,252);
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.chatHeader>h2 {
+    font-size: 1.5vmax;
+    color: white;
+    margin: 2%;
+}
+
+.Xicon {
+    margin: 2%;
+    transition: all 0.4s;
+    cursor: pointer;
+}
+
+.Xicon:hover {
+    transform: scale(1.3);
+}
+
+
+.chatBox {
+    box-sizing: border-box;
+    height: 80%;
+}
+
+.InputBox {
+    height: 10%;
+    display: flex;
+}
+
+#chatInput {
+    width: 80%;
+    padding: 2%;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    border-top: 0.2vmax solid rgb(70,94,252);
+    font-size: large;
+}
+
+.sendBtn {
+    background-color:rgb(70,94,252);
+    color: white;
+    border: none;
+    width: 21%;
+    transition: all 0.3s;
+    cursor: pointer;
+
+}
+
+.sendBtn:hover {
+    background-color: rgb(96, 114, 235);
+}

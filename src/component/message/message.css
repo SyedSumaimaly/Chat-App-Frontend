@@ -1,0 +1,22 @@
+.msgBox {
+    padding: 10px;
+    margin: 1%;
+    border-radius: 10px;
+    display: inline-block;
+    clear: both;
+    font-size: 1.2vmax;
+}
+
+.right {
+    float: right;
+    background-color:rgb(70,94,252);
+    color: white;
+    text-align: right;
+}
+
+.left {
+    float: left;
+    background-color:rgb(42,203,88);
+    color: white;
+    text-align: left;
+}
